@@ -23,7 +23,7 @@
 	- 提供 RESTful API 查詢/寫入
 
 4. **AI/AgentHub 協作層**  
-	- 可串接 AgentHub 多 Agent 協作、地端 LLM（Ollama、Gemma、Llama3 等）或雲端 API  
+	- 可串接 AgentHub 多 Agent 協作、地端 LLM（Ollama、Gemma、Nvidia Nemotron 3、Llama3 等）或雲端 API  
 	- 進行健康風險分析、個人化建議、醫療審核
 
 ---
@@ -78,8 +78,7 @@ python mac_gateway.py
 ---
 
 ## 進階應用
-
-- 可串接本地 LLM（Ollama、Gemma 等）或雲端 GPT-4o、Claude、Gemini
+- 可串接本地 LLM（Ollama、Gemma、Nvidia Nemotron 3 等）或雲端 GPT-4o、Claude、Gemini
 - 支援多 Agent 協作、健康風險評估、社區服務推薦
 - 資料可回寫至 FHIR，形成健康管理閉環
 
